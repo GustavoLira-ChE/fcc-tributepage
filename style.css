@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 93%);
+}
+#img-div{
+    background-color: hsl(0, 0%, 100%);
+}
+#image{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 80%;
+    padding-top: 20px;
+    margin: 20px auto;
+}
+#img-caption{
+    padding: 0px 30px;
+}
+h1, h3{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+li p{
+    text-align: justify;
+    max-width: 600px;
+    margin: 10px auto;
+}
